@@ -1,0 +1,54 @@
+.btn {
+   background-color: rgb(11, 138, 136);
+   border: none;
+   height: 26px;
+   color: white;
+}
+
+#textMessage {
+   border-color: rgb(11, 138, 136);
+   height: 20px;
+   width: 177px;
+}
+
+.input_message {
+   margin: 10px;
+}
+.output {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   width: 430px;
+   height: 500px;
+   border-radius: 5px;
+   background-color: aquamarine;
+   overflow: auto;
+   margin: 10px;
+}
+
+.user-message {
+   color: white;
+   word-wrap: break-word;
+   align-self: start;
+   width: auto;
+   max-width: 300px;
+   height: auto;
+   background-color: rgb(27, 147, 238);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+}
+
+.server-message {
+   color: rgb(13, 82, 61);
+   word-wrap: break-word;
+   align-self: flex-end;
+   width: auto;
+   max-width: 300px;
+   height: auto;
+   background-color: rgb(206, 206, 206);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+
+}
